@@ -40,7 +40,7 @@ curl -fsSL https://get.docker.com | bash
 ### Build Image dirsearch
 To create image
 ```sh
-docker build -t "infoga:1" .
+docker build -t "iofga:1" .
 ```
 > **dirsearch** this is name the image and **1** is version
 
