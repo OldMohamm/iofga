@@ -1,6 +1,6 @@
-## Infoga - Email OSINT
+## Iofga - Email OSINT
 
-Infoga is a tool gathering email accounts informations (ip,hostname,country,...) from different public source (search engines, pgp key servers and shodan) and check if emails was leaked using haveibeenpwned.com API. Is a really simple tool, but very effective for the early stages of a penetration test or just to know the visibility of your company in the Internet.
+Iofga is a tool gathering email accounts informations (ip,hostname,country,...) from different public source (search engines, pgp key servers and shodan) and check if emails was leaked using haveibeenpwned.com API. Is a really simple tool, but very effective for the early stages of a penetration test or just to know the visibility of your company in the Internet.
 
  ![screen](https://raw.githubusercontent.com/OldMohamm/iofga/master/screen/main.png)
 
@@ -8,15 +8,15 @@ Infoga is a tool gathering email accounts informations (ip,hostname,country,...)
 
 ```
 $ git clone https://github.com/OldMohamm/iofga.git iofga
-$ cd infoga
+$ cd iofga
 $ python setup.py install
-$ python infoga.py
+$ python iofga.py
 ```
 
 ## Usage
 
 ```
-$ python infoga.py --domain nsa.gov --source all --breach -v 2 --report ../nsa_gov.txt
+$ python iofga.py --domain nsa.gov --source all --breach -v 2 --report ../nsa_gov.txt
 ```
 
 run
